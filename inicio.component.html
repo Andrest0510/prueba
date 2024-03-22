@@ -1,0 +1,51 @@
+<div class="full">
+<div class="calculadora">
+<div class="container">
+    
+
+<form>
+
+    Numero 1: <input type="number" [(ngModel)]="numero1" name="numero1"><br/><br/>
+
+    Numero 2: <input type="number" [(ngModel)]="numero2" name="numero2"><br/><br/>
+
+    <input type="submit" value="+" (click)="sumar()" class="btn btn-primary">
+
+    <input type="submit" value="-" (click)="restar()" class="btn btn-primary">
+
+    <input type="submit" value="*" (click)="multiplicar()" class="btn btn-primary">
+        
+    <input type="submit" value="/" (click)="dividir()" class="btn btn-primary">
+
+    <input type="submit" value="%" (click)="porcentaje()" class="btn btn-primary">
+
+    <input type="submit" value="^" (click)="potencia()" class="btn btn-primary">
+
+    <input type="submit" value="log" (click)="logaritmo()" class="btn btn-primary">
+
+    <input type="submit" value="sen" (click)="seno()" class="btn btn-primary">
+
+    <input type="submit" value="cos" (click)="coseno()" class="btn btn-primary">
+
+    <input type="submit" value="tan" (click)="tangente()" class="btn btn-primary">
+
+    <input type="submit" value="arcosen" (click)="arcoseno()" class="btn btn-primary">
+
+    <input type="submit" value="arcocosen" (click)="arcocoseno()" class="btn btn-primary">
+
+    <input type="submit" value="arcotan" (click)="arcotangente()" class="btn btn-primary">
+    
+    <input type="submit" value="notacion cientifica" (click)="NC()" class="btn btn-primary">
+    
+    <input type="submit" value="raiz" (click)="raiz()" class="btn btn-primary">
+
+    <input type="submit" value="!" (click)="Factorial()" class="btn btn-primary">
+     
+
+</form>
+
+
+<p>Resultado: {{resultado}}</p>
+
+</div>
+</div>
